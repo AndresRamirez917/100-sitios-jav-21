@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    color: #000;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #000;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 2em 0;
+    color: #000;
+    text-align: center;
+}
+
+h3 {
+    color: #000;
+    margin-top: 1em;
+}
+
+.container {
+    max-width: 1300px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.card {
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+form .form-group {
+    margin-bottom: 1em;
+    color: #000;
+}
+
+form .form-control {
+    width: 100%;
+    padding: 1em;
+
+}
+
+form button {
+    width: 100%;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    border: 1px solid #f30ea7;
+    cursor: pointer;
+}
+
+.btn-primary {
+    width: 30%;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    border: 1px solid #f30ea7;
+    cursor: pointer;
+}
+
+#showcase img {
+    width: 100%;
+}
+
+.showcase-card {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.showcase-card p {
+    color: #fff !important;
+}
+
+.about-card {
+    height: 80px;
+    width: 100%;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border-radius: 1em;
+}
+
+.about-text {
+    height: 80px;
+    margin-bottom: 1em;
+}
+
+
+/* navbar */
+.navbar .logo {
+    float: left;
+    font-size: 1em;
+    margin-top: 1em;
+    background: linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.navbar ul {
+    float: right;
+    margin-top: 1em;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.navbar ul li a {
+    float: right;
+    margin-bottom: 3em;
+}
+
+/* showcase */
+.showcase-card {
+    float: left;
+    width: 35%;
+    padding: 2em;
+    height: 500px;
+    border-radius: 1em;
+}
+
+.showcase-card-title {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.showcase-text-rigth {
+    float: right;
+    width: 60%;
+}
+
+.showcase-text-rigth h1 {
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+
+.showcase-text-rigth p {
+    margin-bottom: 1em;
+    line-height: 3em;
+}
+
+/* trips */
+.card-trip-row {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-trip {
+    display: inline-block;
+    width: 250px;
+    height: 500px;
+    margin: 20px;
+    text-align: center;
+    border: #f30ea7 1px solid;
+    margin: 0 auto;
+    margin-left: 10px;
+    border-radius: 1em;
+}
+
+.card-trip img {
+    width: 200px;
+    height: 250px;
+    border-radius: 1em;
+}
+
+.card-trip p {
+    width: 75%;
+    padding: 1em 0;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+/* about */
+#about {
+    margin: 3em 0;
+}
+
+.about-row-1 {
+    float: left;
+    width: 50%;
+}
+
+.about-row-2 {
+    float: right;
+    width: 40%;
+}
+
+/* contact */
+#contact form {
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    padding: 3em;
+}
